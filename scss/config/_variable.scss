@@ -1,0 +1,30 @@
+/* ======= variable ======= */
+// color
+$white: #FFFFFF;
+$purple: #6200FF;
+$gray: #F4F4F4;
+$black: #000000;
+$black-60: rgba(0, 0, 0, 0.6);
+$black-20: rgba(0, 0, 0, 0.2);
+$black-16: rgba(0, 0, 0, 0.16);
+
+// text-color
+$textColor-primary: $black;
+$textColor-secondary: $purple;
+
+// bg-color
+$bgColor-primary: $gray;
+$bgColor-secondary: $purple;
+
+// font-family
+$font-style: 'Open Sans', sans-serif;
+
+// font-weight
+$font-weight-normal: normal;
+$font-weight-bold: 700;
+
+//font-size
+$font-size-base: 16px;
+$font-size-sm: $font-size-base - 2; //14
+$font-size-md: $font-size-base * 1.25; //20
+$font-size-lg: $font-size-base * 1.5;  //24

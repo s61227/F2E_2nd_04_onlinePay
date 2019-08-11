@@ -1,0 +1,147 @@
+/* ======= layout ======= */
+.container{
+    padding: 72px 180px 75px;
+}
+// pay
+.l-payWrap{
+    max-width: 540px;
+    background-color: $white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px $black-16;
+    padding: 24px 36px;
+    section{
+        margin-bottom: 24px;
+    }
+    button{
+        @include button(100%, 54px, $white, $purple);
+        border-radius: 4px;
+    }
+}
+header{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid $gray;
+}
+.l-logo{
+    width: 184px;
+    height: 46px;
+    display: inline-block;
+    background-image: url('../images/logo-crypto-pay.svg');
+    background-size: cover;
+}
+.l-cart{
+    text-align: right;
+    p{
+        font-size: $font-size-md;
+        font-weight: $font-weight-bold;
+    }
+    i{
+        font-size: $font-size-lg;
+        vertical-align: sub;
+        margin-right: 8px;
+    }
+    small{
+        line-height: 22px;
+        color: $black-60;
+    }
+}
+.l-title{
+    font-weight: $font-weight-bold;
+    margin-bottom: 16px;
+    span{
+        font-size: $font-size-lg;
+    }
+    a{
+        font-size: $font-size-base;
+        color: $purple;
+    }
+}
+.l-info{
+    margin: 8px 0;
+    padding: 16px 20px;
+    border: 1px solid $black;
+    border-radius: 4px;
+    p{
+        color: $black-60;
+        font-size: $font-size-base;
+    }
+    span{
+        color: $purple;
+        font-weight: $font-weight-bold;
+    }
+}
+.l-subTitle{
+    font-size: $font-size-md;
+    font-weight: $font-weight-bold;
+    margin-bottom: 8px;
+    small{
+        color: $black-60;
+        font-weight: $font-weight-normal;
+        font-size: $font-size-base;
+    }
+    
+}
+.l-currency{
+    margin: 8px 0 16px;
+    border: 1px solid $black;
+    border-radius: 4px;
+    text-align: center;
+    a{
+        flex: 1;
+        padding: 16px 20px;
+        display: inline-block;
+        line-height: 36px;
+        &:nth-of-type(1){
+            border-right: 1px solid $black;
+        }
+        img{
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    }
+}
+
+// detail
+.l-detail{
+    max-width: 350px;
+    border-radius: 8px;
+    border: 1px solid $black;
+    padding: 24px 36px;
+    section{
+        margin-top: 24px;
+    }
+    p{
+        margin: 8px 0;
+    }
+    select{
+        outline: none;
+        border: 0;
+        background-color: transparent;
+        font-weight: $font-weight-bold;
+    }
+}
+.l-product{
+    border-bottom:1px solid $black;
+    padding-bottom: 8.5px;
+    li{
+        margin-bottom: 4px;
+    }
+    &__name{}
+    &__price{
+        font-weight: $font-weight-bold;
+    }
+}
+.l-amount{
+    font-weight: $font-weight-bold;
+}
+.l-gasFee{
+    font-weight: $font-weight-bold;
+}
+.l-total{
+    border-top:1px solid $black;
+    padding-top: 8.5px;
+    span{
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+    }
+}
